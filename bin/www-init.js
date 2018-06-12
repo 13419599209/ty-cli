@@ -23,7 +23,6 @@ program.usage('<project-name>')
 
 let projectType = program.args[0] // 模版类型
 let projectName = program.args[1]; // 模版名称
-console.log(program.args);
 
 if (!projectName || !projectType) {  // project-type project-name 必填
   // 相当于执行命令的--help选项，显示help信息，这是commander内置的一个命令选项
